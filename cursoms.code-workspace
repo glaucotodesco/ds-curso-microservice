@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "hr-worker"
+		},
+		{
+			"name": "hr-payroll",
+			"path": "hr-payroll"
+		},
+		{
+			"name": "cursoms",
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic"
+	}
+}
