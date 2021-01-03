@@ -8,9 +8,8 @@
 			"path": "hr-payroll"
 		},
 		{
-			"name": "cursoms",
-			"path": "."
-		}
+			"path": "eurekaserver"
+		},
 	],
 	"settings": {
 		"java.configuration.updateBuildConfiguration": "automatic"
