@@ -1,10 +1,6 @@
 package com.cursoms.payroll.hrpayroll.entities;
 
-
-
 import lombok.Data;
-
-
 
 @Data
 public  class Worker {

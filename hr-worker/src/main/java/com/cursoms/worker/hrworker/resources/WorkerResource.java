@@ -20,8 +20,13 @@ public class WorkerResource {
     private WorkerRepository repository;
 
     @GetMapping
-    public List<Worker> getAll(){
-        return repository.findAll();
+    public ResponseEntity<List<Worker>> getAll(){
+        List<Worker> workers = repository.findAll();
+
+        workers.forEach( w -> System.out.println(w.getName()));
+
+
+        return ResponseEntity.ok(repository.findAll());
     }
 
     @GetMapping("{id}")
