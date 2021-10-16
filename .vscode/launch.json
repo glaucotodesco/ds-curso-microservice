@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HrApiGetwayZuulApplication",
+            "request": "launch",
+            "mainClass": "com.cursoms.gateway.hrapigetwayzuul.HrApiGetwayZuulApplication"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-EurekaserverApplication<eurekaserver>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
