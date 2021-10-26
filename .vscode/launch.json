@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HrConfigServerApplication",
+            "request": "launch",
+            "mainClass": "com.cursoms.hrconfigserver.HrConfigServerApplication",
+            "projectName": "hr-config-server"
+        },
+        {
+            "type": "java",
             "name": "Launch HrApiGetwayZuulApplication",
             "request": "launch",
             "mainClass": "com.cursoms.gateway.hrapigetwayzuul.HrApiGetwayZuulApplication"
@@ -44,6 +51,16 @@
             "console": "internalConsole",
             "mainClass": "com.cursoms.eurekaserver.eurekaserver.EurekaserverApplication",
             "projectName": "hr-eureka-server",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HrApiGetwayZuulApplication<hr-api-getway-zuul>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.cursoms.gateway.hrapigetwayzuul.HrApiGetwayZuulApplication",
+            "projectName": "hr-api-getway-zuul",
             "args": ""
         }
     ]
