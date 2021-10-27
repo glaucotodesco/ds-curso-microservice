@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HrUserApplication",
+            "request": "launch",
+            "mainClass": "com.cursoms.hruser.HrUserApplication"
+        },
+        {
+            "type": "java",
             "name": "Launch HrConfigServerApplication",
             "request": "launch",
             "mainClass": "com.cursoms.hrconfigserver.HrConfigServerApplication",
@@ -61,6 +67,25 @@
             "console": "internalConsole",
             "mainClass": "com.cursoms.gateway.hrapigetwayzuul.HrApiGetwayZuulApplication",
             "projectName": "hr-api-getway-zuul",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HrUserApplication<hr-user>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.cursoms.hruser.HrUserApplication",
+            "projectName": "hr-user",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MavenWrapperDownloader",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "MavenWrapperDownloader",
             "args": ""
         }
     ]
