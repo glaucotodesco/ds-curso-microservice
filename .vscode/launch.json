@@ -87,6 +87,16 @@
             "console": "internalConsole",
             "mainClass": "MavenWrapperDownloader",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HrOauthApplication<hr-oauth>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.cursoms.hroauth.HrOauthApplication",
+            "projectName": "hr-oauth",
+            "args": ""
         }
     ]
 }
