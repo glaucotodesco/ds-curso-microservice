@@ -10,6 +10,18 @@
 		{
 			"path": "eurekaserver"
 		},
+		{
+			"path": "hr-api-getway-zuul"
+		},
+		{
+			"path": "hr-user"
+		},
+		{
+			"path": "hr-oauth"
+		},
+		{
+			"path": "hr-config-server"
+		}
 	],
 	"settings": {
 		"java.configuration.updateBuildConfiguration": "automatic"
